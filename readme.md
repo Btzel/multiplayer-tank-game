@@ -39,19 +39,25 @@ The aim of this manual is to explain how to make multiplayer tank game and how t
 AI-based players on Unity Engine. The progress is going to be shown in the next sections in
 the manual.
 ```
-## 2. FINDING REQUIRED ASSETS
+
+**2. FINDING REQUIRED ASSETS**
 ```
 The assets can be explained as graphical textures, sounds, objects and more.
 ```
+
+3. REQUIRED SOFTWARES
 ```
-## 3. REQUIRED SOFTWARES
 Software used in this project; Unity Engine, Visual Studio 2022, Python Development IDE.
 ```
+
+#### 3.1 Installing Unity Engine and Unity Editor
 ```
 ## 3.1 Installing Unity Engine and Unity Editor
 Unity Engine is free to use game engine can be downloaded from their website [2]. After
 installing Unity Hub, the Unity Editor can be downloaded as shown below.
 ```
+
+
 ```
 ## 3.2 Installing Visual Studio
 Visual Studio can be downloaded from their website [3].After downloading Visual Studio
