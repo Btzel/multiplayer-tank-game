@@ -63,7 +63,7 @@ However, dedicated servers also have downsides:
 
 The project will cover only self hosted model.
 
-## 6. BUILDING THE FOUNDATIONS OF THE GAME
+## 4. BUILDING THE FOUNDATIONS OF THE GAME
 
 Required packages:
 - Netcode for Gameobjects
@@ -71,7 +71,7 @@ Required packages:
 - Cinemachine
 - Input System
 
-### 6.1 Core Gameplay
+### 4.1 Core Gameplay
 
 #### Assets
 The assets to be used in the game were found on the internet and imported into the Unity Editor. Afterwards, the player's prefab was created using these assets.
@@ -111,7 +111,7 @@ The coin spawner was created to handle certain amount of coin spawn inside a map
 #### Map Design
 Map was created using the assets installed from the internet.
 
-### 6.2 Connection
+### 4.2 Connection
 
 #### Main Menu
 The main menu scene and UI was created to make players can connect over the internet and create a lobby for other players to join.
@@ -143,7 +143,7 @@ A name selection feature was added to the project to allow players can choose th
 #### Connection Approval
 Connection Approval is a feature in Netcode for GameObjects that allows the server to approve or reject client connections based on custom logic. This can be useful for various purposes, such as authenticating users, managing player data, and preventing unauthorized access. This feature was added in the NetworkServer, NetworkClient, ClientGameManager and HostGameManager scripts given above.
 
-### 6.3 Gameplay Additions
+### 4.3 Gameplay Additions
 
 #### Respawning
 Respawning algorithm was applied to respawn when the player is died.
@@ -151,7 +151,7 @@ Respawning algorithm was applied to respawn when the player is died.
 #### Healing Zone
 Healing Zones were added to the game to achieve players refill their heath.
 
-## 7. Multiplayer Tank Game Autonomous Agent
+## 5. Multiplayer Tank Game Autonomous Agent
 
 ### Overview
 Project focuses on developing an autonomous game-playing agent that can navigate, make decisions, and interact within a game environment. This agent utilizes various algorithms and techniques including pathfinding, decision-making, and object detection to achieve its goals.
