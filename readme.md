@@ -8,15 +8,16 @@ Ahmet Çağdaş SEÇKİN
 June 2024
 ```
 
-#Declaration
-'''
+**Declaration**
+```
 I declare that scientific ethics and academic rules are meticulously complied with in
 the design, preparation, execution, research, and analysis of this thesis, and the
 findings, data, and materials that are not directly the primary product of this study are
 cited in accordance with scientific ethics.
 ```
 
-'''
+**The Goal of The Project**
+```
 The fundamental aim of the project is making multiplayer tank game and autonomous
 game-playing agent that play the game in the place of a human using the data
 obtained by the Host. The development process proceeds as follows; Finding assets,
@@ -26,12 +27,8 @@ single player tank game that has progressive game design against AI-based enemie
 and, multiplayer tank game that has competitive environment that online players can
 enjoy playing with their friends connected to the same internet connection.
 ```
-Keywords: Multiplayer, Tank, AI, Training, Competitive
-```
-### ACKNOWLEDGEMENT
-```
-Thanks to Supervisor Ahmet Çağdaş SEÇKİN for reviews and advices about game
-development progress of the project.
+**Keywords: Multiplayer, Tank, AI, Training, Competitive**
+
 ```
 ## 1. INTRODUCTION
 The aim of this manual is to explain how to make multiplayer tank game and how to train
