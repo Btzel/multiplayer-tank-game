@@ -1,86 +1,21 @@
-### AYDIN ADNAN MENDERES UNIVERSITY
-
-### ENGINEERING FACULTY
-
-### COMPUTER ENGINEERING DEPARTMENT
-
 # MULTIPLAYER TANK GAME
 
 ```
 Talha Alper ASAV
 Burak TÜZEL
-```
-```
 Supervisor:
 Ahmet Çağdaş SEÇKİN
-```
-```
 June 2024
-```
-
-To my beloved _ones..._
-
-
-### ACCEPTANCE AND APPROVAL SHEET
-
-```
-The thesis study entitled “MULTIPLAYER TANK GAME” prepared by Burak
-TÜZEL and Talha Alper ASAV has been accepted by our jury as the Bachelor of
-Science Thesis in the Department of Computer Engineering on XX.XX.202 4.
-```
-```
-Jurors Signatures
-```
-```
-Supervisor
-Ahmet Çağdaş SEÇKİN
-.................................................
-Member
-Burak TÜZEL
-.................................................
-Member
-Talha Alper ASAV
-.................................................
-```
-```
-.................................................
-```
-```
-İnci ERHAN
-```
-```
-Head of Computer Engineering Department
-```
-
+'''
 ### DECLARATION SHEET
-
 ```
 I declare that scientific ethics and academic rules are meticulously complied with in
 the design, preparation, execution, research, and analysis of this thesis, and the
 findings, data, and materials that are not directly the primary product of this study are
 cited in accordance with scientific ethics.
 ```
-
-### ABSTRACT
-
 ### MULTIPLAYER TANK GAME
-
-```
-Talha Alper ASAV
-```
-```
-Burak TÜZEL
-```
-```
-B.Sc. Thesis, Computer Engineering Department
-```
-```
-Supervisor: Ahmet Çağdaş SEÇKİN
-```
-```
-2024 , 45 pages
-```
-```
+'''
 The fundamental aim of the project is making multiplayer tank game and autonomous
 game-playing agent that play the game in the place of a human using the data
 obtained by the Host. The development process proceeds as follows; Finding assets,
@@ -90,75 +25,30 @@ single player tank game that has progressive game design against AI-based enemie
 and, multiplayer tank game that has competitive environment that online players can
 enjoy playing with their friends connected to the same internet connection.
 ```
-```
 Keywords: Multiplayer, Tank, AI, Training, Competitive
 ```
-
 ### ACKNOWLEDGEMENT
-
 ```
 Thanks to Supervisor Ahmet Çağdaş SEÇKİN for reviews and advices about game
 development progress of the project.
 ```
-```
-Respectfully yours.
-```
-
-##
-
-- AYDIN ADNAN MENDERES UNIVERSITY ENGINEERING FACULTY Contents
-- ACCEPTANCE AND APPROVAL SHEET
-- DECLARATION SHEET
-- ABSTRACT MULTIPLAYER TANK GAME...............................................................
-- ACKNOWLEDGEMENT
-- 1. INTRODUCTION
-- 2. FINDING REQUIRED ASSETS
-- 3. REQUIRED SOFTWARES
-- 3.1 Installing Unity Engine and Unity Editor..................................................................
-- 3.2 Installing Visual Studio
-- 4. CREATING UNITY PROJECT
-- 5. NETCODE FOR GAMEOBJECTS
-- 6. BUILDING THE FOUNDATIONS OF THE GAME
-- 6.1 Core Gameplay..........................................................................................................
-- 6.2 Connection
-- 6.3 Gameplay Additions................................................................................................
-- 6.4 In Game Screenshots
-- 7. Multiplayer Tank Game Autonomous Agent
-- REFERENCES
-
-
 ## 1. INTRODUCTION
-
 The aim of this manual is to explain how to make multiplayer tank game and how to train
 AI-based players on Unity Engine. The progress is going to be shown in the next sections in
 the manual.
-
 ## 2. FINDING REQUIRED ASSETS
-
 The assets can be explained as graphical textures, sounds, objects and more.
-
 ## 3. REQUIRED SOFTWARES
-
 Software used in this project; Unity Engine, Visual Studio 2022, Python Development IDE.
-
-## 3.1 Installing Unity Engine and Unity Editor..................................................................
-
+## 3.1 Installing Unity Engine and Unity Editor
 Unity Engine is free to use game engine can be downloaded from their website [2]. After
 installing Unity Hub, the Unity Editor can be downloaded as shown below.
-
-
 ## 3.2 Installing Visual Studio
-
 Visual Studio can be downloaded from their website [3].After downloading Visual Studio
 Installer, the Game Develoment with Unity package should be installed as shown below.
-
 ## 4. CREATING UNITY PROJECT
-
-New project can be created from Unity Hub as shown below.
-
-
+New project can be created from Unity Hub
 ## 5. NETCODE FOR GAMEOBJECTS
-
 In a multiplayer game, players act as clients connecting to a server, which is typically hosted
 by the game company. Players send data to the server, which processes it and communicates
 back to the clients. For example, if a player fires a weapon, the server handles the logic and
