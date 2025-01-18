@@ -8,7 +8,7 @@ Ahmet Çağdaş SEÇKİN
 June 2024
 ```
 
-**Declaration**
+## Declaration
 ```
 I declare that scientific ethics and academic rules are meticulously complied with in
 the design, preparation, execution, research, and analysis of this thesis, and the
@@ -16,7 +16,7 @@ findings, data, and materials that are not directly the primary product of this 
 cited in accordance with scientific ethics.
 ```
 
-**The Goal of The Project**
+## The Goal of The Project
 ```
 The fundamental aim of the project is making multiplayer tank game and autonomous
 game-playing agent that play the game in the place of a human using the data
@@ -27,55 +27,50 @@ single player tank game that has progressive game design against AI-based enemie
 and, multiplayer tank game that has competitive environment that online players can
 enjoy playing with their friends connected to the same internet connection.
 ```
-**Keywords**
 
+## Keywords
 ```
 Multiplayer, Tank, AI, Training, Competitive
 ```
 
-**1. INTRODUCTION**
+## 1. INTRODUCTION
 ```
 The aim of this manual is to explain how to make multiplayer tank game and how to train
 AI-based players on Unity Engine. The progress is going to be shown in the next sections in
 the manual.
 ```
 
-**2. FINDING REQUIRED ASSETS**
+## 2. FINDING REQUIRED ASSETS
 ```
 The assets can be explained as graphical textures, sounds, objects and more.
 ```
 
-3. REQUIRED SOFTWARES
+## 3. REQUIRED SOFTWARES
 ```
 Software used in this project; Unity Engine, Visual Studio 2022, Python Development IDE.
 ```
 
-#### 3.1 Installing Unity Engine and Unity Editor
+##### 3.1 Installing Unity Engine and Unity Editor
 ```
-## 3.1 Installing Unity Engine and Unity Editor
 Unity Engine is free to use game engine can be downloaded from their website [2]. After
 installing Unity Hub, the Unity Editor can be downloaded as shown below.
 ```
 
-
+##### 3.2 Installing Visual Studio
 ```
-## 3.2 Installing Visual Studio
 Visual Studio can be downloaded from their website [3].After downloading Visual Studio
 Installer, the Game Develoment with Unity package should be installed as shown below.
 ```
+
+## 4. NETCODE FOR GAMEOBJECTS
 ```
-## 4. CREATING UNITY PROJECT
-New project can be created from Unity Hub
-```
-```
-## 5. NETCODE FOR GAMEOBJECTS
 In a multiplayer game, players act as clients connecting to a server, which is typically hosted
 by the game company. Players send data to the server, which processes it and communicates
 back to the clients. For example, if a player fires a weapon, the server handles the logic and
 notifies other clients about the resulting actions, such as the spawning of a projectile.
 ``
 
-_Self-Hosted Model_
+**Self-Hosted Model**
 
 In the self-hosted model, a player’s machine functions as both the client and the server,
 running the game and server logic. Other players connect to this host player. This model
