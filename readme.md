@@ -27,30 +27,47 @@ single player tank game that has progressive game design against AI-based enemie
 and, multiplayer tank game that has competitive environment that online players can
 enjoy playing with their friends connected to the same internet connection.
 ```
-**Keywords: Multiplayer, Tank, AI, Training, Competitive**
+**Keywords**
 
 ```
-## 1. INTRODUCTION
+Multiplayer, Tank, AI, Training, Competitive
+```
+
+**1. INTRODUCTION**
+```
 The aim of this manual is to explain how to make multiplayer tank game and how to train
 AI-based players on Unity Engine. The progress is going to be shown in the next sections in
 the manual.
+```
+```
 ## 2. FINDING REQUIRED ASSETS
 The assets can be explained as graphical textures, sounds, objects and more.
+```
+```
 ## 3. REQUIRED SOFTWARES
 Software used in this project; Unity Engine, Visual Studio 2022, Python Development IDE.
+```
+```
 ## 3.1 Installing Unity Engine and Unity Editor
 Unity Engine is free to use game engine can be downloaded from their website [2]. After
 installing Unity Hub, the Unity Editor can be downloaded as shown below.
+```
+```
 ## 3.2 Installing Visual Studio
 Visual Studio can be downloaded from their website [3].After downloading Visual Studio
 Installer, the Game Develoment with Unity package should be installed as shown below.
+```
+```
 ## 4. CREATING UNITY PROJECT
 New project can be created from Unity Hub
+```
+```
 ## 5. NETCODE FOR GAMEOBJECTS
 In a multiplayer game, players act as clients connecting to a server, which is typically hosted
 by the game company. Players send data to the server, which processes it and communicates
 back to the clients. For example, if a player fires a weapon, the server handles the logic and
 notifies other clients about the resulting actions, such as the spawning of a projectile.
+``
 
 _Self-Hosted Model_
 
@@ -83,8 +100,9 @@ However, dedicated servers also have downsides:
     server management.
 
 The project will cover only self hosted model.
+```
 
-
+```
 ## 6. BUILDING THE FOUNDATIONS OF THE GAME
 
 Required packages
@@ -93,6 +111,8 @@ Required packages
 - com.unity.services.multiplay
 - Cinemachine
 - Input System
+```
+```
 
 ## 6.1 Core Gameplay..........................................................................................................
 
@@ -161,6 +181,8 @@ The coin spawner was created to handle certain amount of coin spawn inside a map
 
 - **_Map Design_**
 Map was created using the assets installed from the internet.
+```
+```
 
 
 ## 6.2 Connection
@@ -202,8 +224,9 @@ player hits "Connect" they will be taken to the first scene, which will attempt 
 them. If successful, they are then sent to the main menu and granted access to game services.
 
 ```
-▪ Setting Up Relay Service
 ```
+▪ Setting Up Relay Service
+
 Relay Service allows players to connect to a game over the Internet without needing to port
 forward their routers, so Relay is added to provide this feature in Manager and Singleton
 scripts.
@@ -226,7 +249,8 @@ approve or reject client connections based on custom logic. This can be useful f
 purposes, such as authenticating users, managing player data, and preventing unauthorized
 access. This feature was added in the NetworkServer, NetworkClient, ClientGameManager
 and HostGameManager scripts given above
-
+```
+```
 
 ## 6.3 Gameplay Additions................................................................................................
 
@@ -235,12 +259,8 @@ Respawning algorithm was applied to respawn when the player is died.
 
 ▪ **_Healing Zone_**
 Healing Zones were added to the game to achieve players refill their heath
-
-
-## 6.4 In Game Screenshots
-
-
-
+```
+```
 ## 7. Multiplayer Tank Game Autonomous Agent
 
 ▪ **_Overview_**
@@ -275,6 +295,7 @@ The project combines computer vision, pathfinding algorithms, and game state ana
 create a sophisticated autonomous agent capable of real-time decision-making and
 interaction within a game environment. This approach ensures effective solution for
 developing AI agents for complex game scenarios.
+```
 
 ```
 ▪ Components
@@ -287,7 +308,9 @@ o Matrix.py Key Functions
     zones).
 
 
+
 **_Matrix.py Key Functions Representation_**
+```
 
 ```
 o Astar.py Key Functions
