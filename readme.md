@@ -361,9 +361,11 @@ o YoloInference.py Key Functions
     for debugging and analysis.
 
 
+```
 
-## REFERENCES
 
+**References**
+```
 [1] YumingRong, Github, (2019). Accesed: Dec. 22, 2023. [Online]. Available:
 https://github.com/YumingRong/90-Tank/tree/TankAI/Assets
 
