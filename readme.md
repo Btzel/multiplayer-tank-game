@@ -8,6 +8,7 @@ Ahmet Çağdaş SEÇKİN
 June 2024
 ```
 
+#Declaration
 '''
 I declare that scientific ethics and academic rules are meticulously complied with in
 the design, preparation, execution, research, and analysis of this thesis, and the
