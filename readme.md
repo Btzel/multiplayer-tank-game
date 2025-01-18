@@ -1,13 +1,14 @@
 # MULTIPLAYER TANK GAME
 
 ```
-Talha Alper ASAV
 Burak TÜZEL
+Talha Alper ASAV
 Supervisor:
 Ahmet Çağdaş SEÇKİN
 June 2024
 ```
 
+'''
 I declare that scientific ethics and academic rules are meticulously complied with in
 the design, preparation, execution, research, and analysis of this thesis, and the
 findings, data, and materials that are not directly the primary product of this study are
