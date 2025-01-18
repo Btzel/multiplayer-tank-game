@@ -39,8 +39,8 @@ The aim of this manual is to explain how to make multiplayer tank game and how t
 AI-based players on Unity Engine. The progress is going to be shown in the next sections in
 the manual.
 ```
-```
 ## 2. FINDING REQUIRED ASSETS
+```
 The assets can be explained as graphical textures, sounds, objects and more.
 ```
 ```
