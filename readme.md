@@ -6,15 +6,14 @@ Burak TÜZEL
 Supervisor:
 Ahmet Çağdaş SEÇKİN
 June 2024
-'''
-### DECLARATION SHEET
 ```
+
 I declare that scientific ethics and academic rules are meticulously complied with in
 the design, preparation, execution, research, and analysis of this thesis, and the
 findings, data, and materials that are not directly the primary product of this study are
 cited in accordance with scientific ethics.
 ```
-### MULTIPLAYER TANK GAME
+
 '''
 The fundamental aim of the project is making multiplayer tank game and autonomous
 game-playing agent that play the game in the place of a human using the data
