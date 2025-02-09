@@ -125,4 +125,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Senior Design Project (2023/2024)  
 Supervisor: Ahmet Çağdaş SEÇKİN  
 Computer Engineering Department  
-Aydin Adnan Menderes University
+Aydin Adnan Menderes University.
